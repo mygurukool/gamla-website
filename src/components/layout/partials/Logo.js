@@ -22,7 +22,7 @@ const Logo = ({
         <Link to="/">
           <Image
             src={require('./../../../assets/images/gamla3.png')}
-            alt="Open"
+            alt="Gamla.Fund"
             width={70}
             height={70} />
         </Link>
