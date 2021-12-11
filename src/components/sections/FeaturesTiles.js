@@ -75,7 +75,7 @@ const FeaturesTiles = ({
                     Community
                     </h4>
                   <p className="m-0 text-sm">
-                    Group of individuals agrees to meet for a defined period and amount. A form of combined <b>peer-to-peer banking</b> and <b>peer-to-peer lending</b> (#microcredit, #microfinance).
+                    Group of individuals agrees to meet for a defined period and amount. A form of combined <b>P2P banking</b> and <b>P2P lending</b> (#microcredit, #microfinance).
                     </p>
                 </div>
               </div>
