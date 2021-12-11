@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Community-saving funds, empowering the community to perform peer-to-peer saving, borrowing, lending at their own comfort, feasibility, and needs. 
+              Community-saving funds, empowering the community to perform P2P saving, borrowing, lending at their own comfort, feasibility, and needs. 
               <br/>
               <br/>
                 Where trust and security are integrated with integrity.
