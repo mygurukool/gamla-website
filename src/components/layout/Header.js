@@ -162,7 +162,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="https://gamlafund-app.netlify.app/" className="button button-primary button-wide-mobile button-sm">Connect Wallet</Link>
+                        <Link to="https://app.gamla.fund/" className="button button-primary button-wide-mobile button-sm">Connect Wallet</Link>
                         {/* <Button color="primary" onClick={connectWallet}>Connect Wallet</Button> */}
                       </li>
                     </ul>}

@@ -46,7 +46,7 @@ const FeaturesTiles = ({
   const sectionHeaderText = "Gamla.fund empowers every individual to manage their finances. Without a" +"fund manager as middleman. Monthly recurring amount is always available from every participant, therefore no defaulters, assuring successful completion of fund duration.";
   const sectionHeader = {
     title: 'Why Gamla.fund',
-    paragraph: `Gamla.fund empowers every individual to manage their finances. Eliminates a fund manager as middleman, monthly recurring amount availability from every participant is guaranteed, no scope of defaulters, assuring successful completion of fund duration.`
+    paragraph: `Gamla.fund empowers every individual to manage their finances. Eliminates a fund manager as the middleman; guarantees monthly recurring amount availability from every participant, no scope of defaulters, assuring successful completion of fund duration.`
   };
 
   return (
@@ -101,6 +101,7 @@ const FeaturesTiles = ({
                     <br/>- Savings
                     <br/>- Borrowing
                     <br/>- Investments (interest rates, lending)
+                    <br/>- Pledge existing assets as collateral, not sell off
                   </p>
                 </div>
               </div>
@@ -145,7 +146,7 @@ const FeaturesTiles = ({
                     DeFi
                     </h4>
                   <p className="m-0 text-sm">
-                    Decentralized FinTech dapp running on Ethereum blockchain. Currently deployed on polygon.
+                    Decentralized FinTech dapp running on Ethereum blockchain. Currently <b>deployed on polygon</b>.
                     </p>
                 </div>
               </div>

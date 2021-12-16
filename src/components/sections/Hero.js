@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Community-saving funds, empowering the community to perform P2P saving, borrowing, lending at their own comfort, feasibility, and needs. 
+                Community-saving funds, empowering the community to perform P2P saving, borrowing, lending at their own comfort, feasibility, and needs. 
               <br/>
               <br/>
                 Where trust and security are integrated with integrity.
@@ -75,10 +75,10 @@ const Hero = ({
                 {/*   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Get started
                     </Button> */}
-                  <Button tag="a" color="dark" wideMobile href="https://rinkeby.etherscan.io/address/0x25E91137704Ec1BE997158A97a01c3adc50eCe6d#code">
-                    View on Etherscan
+                  <Button tag="a" color="dark" wideMobile href="https://mumbai.polygonscan.com/address/0xd16A05FF29893535c10Db93871e64f8f2d61DF52#code">
+                    View on Polygonscan
                     </Button>
-                    <Button tag="a" color="dark" wideMobile href="https://github.com/mygurukool/gamlaBE">
+                    <Button tag="a" color="dark" wideMobile href="https://github.com/paperlib/gamla">
                     View on Github
                     </Button>
                 </ButtonGroup>
@@ -87,14 +87,14 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://www.youtube.com/embed/MDVg3_Nbfos"
+              data-video="https://www.youtube.com/embed/p7_oJFvSncA"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/video-placeholder.JPG')}
                 alt="Hero"
                 width={896}
                 height={504} />
@@ -104,7 +104,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://youtube.com/embed/MDVg3_Nbfos"
+            video="https://youtube.com/embed/p7_oJFvSncA"
             videoTag="iframe" />
         </div>
       </div>
