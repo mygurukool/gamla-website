@@ -64,32 +64,32 @@ const FeaturesSplit = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className="container-xs">
-          <div className="reveal-from-bottom" data-reveal-delay="600">
+            <div className="reveal-from-bottom" data-reveal-delay="600">
 
-                        <Link to="https://app.gamla.fund/" className="button button-primary button-wide-mobile button-sm">Connect Wallet</Link>
-                        {/* <Button color="primary" onClick={connectWallet}>Connect Wallet</Button> */}
-          </div>
+              <Link to="https://app.gamla.fund/" className="connect-wallet-button button button-primary button-wide-mobile button-sm">Connect Wallet</Link>
+              {/* <Button color="primary" onClick={connectWallet}>Connect Wallet</Button> */}
+            </div>
           </div>
           <div className={splitClasses}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                Savings, Borrowing, Investments (interest rates, lending)
-                  </div>
+                  Savings, Borrowing, Investments (interest rates, lending)
+                </div>
                 <h3 className="mt-0 mb-12">
-                Your Earnings
-                  </h3>
+                  Your Earnings
+                </h3>
                 <p className="m-0">
                   <b>Earnings will start from the very first month!</b>
                   <br></br>
                   <br></br>
-                  The collected fund will be withdrawn by one participant every month. 
-                  The first month's withdrawal will be lower than the fund value and gradually reaches 100% by the end of the duration.                  
-                  </p>
+                  The collected fund will be withdrawn by one participant every month.
+                  The first month's withdrawal will be lower than the fund value and gradually reaches 100% by the end of the duration.
+                </p>
                 <br></br>
                 <p className="m-0">
-                  For eg: The recurring monthly fund value is 10000, the first month's withdrawal will be 8000, splitting the left out 2000 among the remaining 9 participants.                  
+                  For eg: The recurring monthly fund value is 10000, the first month's withdrawal will be 8000, splitting the left out 2000 among the remaining 9 participants.
                 </p>
               </div>
               <div className={
@@ -110,10 +110,10 @@ const FeaturesSplit = ({
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Monthly Withdrawal
-                  </div>
+                </div>
                 <h3 className="mt-0 mb-12">
                   Auction
-                  </h3>
+                </h3>
                 <p className="m-0">
                   <b>Fair and transparent monthly withdrawal!</b>
                   <br></br>
@@ -142,20 +142,20 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Success of Fund cycle 
-                  </div>
+                  Success of Fund cycle
+                </div>
                 <h3 className="mt-0 mb-12">
                   Trust and Security
-                  </h3>
+                </h3>
                 <p className="m-0">
                   <b>Pledging crypto collateral is mandatory to participate in a fund.</b>
-                  <br/>
-                  <br/>
-                  Upon monthly deposit <b>due-date expiry</b>, the <b>smart contract</b> will identify deposit defaulters and <b>sell off the pledge crypto collateral</b> to compensate the remaining fund duration. 
+                  <br />
+                  <br />
+                  Upon monthly deposit <b>due-date expiry</b>, the <b>smart contract</b> will identify deposit defaulters and <b>sell off the pledge crypto collateral</b> to compensate the remaining fund duration.
                   <br></br>
                   <br></br>
                   With no more defaulters, 100% successful completion of fund duration.
-                  </p>
+                </p>
               </div>
               <div className={
                 classNames(

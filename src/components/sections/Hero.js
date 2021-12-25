@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import WinnerBadgeImg from './../../assets/images/winnerBanner.png';
 
 const propTypes = {
   ...SectionProps.types
@@ -35,7 +36,7 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -60,27 +61,34 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
+
+            <div className="winnerBadge">
+              <img src={WinnerBadgeImg} />
+              <a href="https://devfolio.co/submissions/gamlafund-5970" target="_blank"><div className="know_more">Know More
+              </div></a>
+            </div>
+
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               DeFi Saving funds by <span className="text-color-primary">Community</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Community-saving funds, empowering the community to perform P2P saving, borrowing, lending at their own comfort, feasibility, and needs. 
-              <br/>
-              <br/>
+                Community-saving funds, empowering the community to perform P2P saving, borrowing, lending at their own comfort, feasibility, and needs.
+                <br />
+                <br />
                 Where trust and security are integrated with integrity.
-                </p>
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                {/*   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  {/*   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Get started
                     </Button> */}
                   <Button tag="a" color="dark" wideMobile href="https://mumbai.polygonscan.com/address/0xd16A05FF29893535c10Db93871e64f8f2d61DF52#code">
                     View on Polygonscan
-                    </Button>
-                    <Button tag="a" color="dark" wideMobile href="https://github.com/paperlib/gamla">
+                  </Button>
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/paperlib/gamla">
                     View on Github
-                    </Button>
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>
