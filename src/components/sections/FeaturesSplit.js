@@ -64,7 +64,7 @@ const FeaturesSplit = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className="container-xs">
-            <div className="reveal-from-bottom" data-reveal-delay="600">
+            <div className="center-content reveal-from-bottom" data-reveal-delay="600">
 
               <Link to="https://app.gamla.fund/" className="connect-wallet-button button button-primary button-wide-mobile button-sm">Connect Wallet</Link>
               {/* <Button color="primary" onClick={connectWallet}>Connect Wallet</Button> */}
