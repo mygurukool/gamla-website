@@ -78,7 +78,7 @@ const Hero = ({
                   <Button tag="a" color="dark" wideMobile href="https://mumbai.polygonscan.com/address/0xd16A05FF29893535c10Db93871e64f8f2d61DF52#code">
                     View on Polygonscan
                   </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/paperlib/gamla">
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/Gamlafund/gamlaBE">
                     View on Github
                   </Button>
                 </ButtonGroup>
